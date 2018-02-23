@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.bluetooth.Splash"
+    android:id="@+id/container"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/btnchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHAT"/>
+    <Button
+        android:id="@+id/btncall"
+        android:layout_below="@+id/btnchat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL"/>
+    <Button
+        android:id="@+id/btnshare"
+        android:layout_below="@+id/btncall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHARE"/>
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_below="@+id/btnshare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUSIC PLAY"/>
+
+
+</LinearLayout>
